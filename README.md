@@ -1,5 +1,5 @@
 # ud036_StarterCode
-Source code for a Movie Trailer website.
+Source code for "My Favourite Movie Trailers" website.
 
 Installation
 - Open the terminal
@@ -12,7 +12,7 @@ How to run the project
 
 How to use the website
 - Click on the movie image to view its trailer
-- Hover over the movie iamge to read its storyline
+- Hover over the movie image to read its storyline
 
 Extra features
 - Changed the title of the website to "My Favourite Movie Trailers"
