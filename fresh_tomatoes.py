@@ -17,7 +17,7 @@ main_page_head = '''
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
     <script src="https://netdna.bootstrapcdn.com/bootstrap/3.1.0/js/bootstrap.min.js"></script>
     <style type="text/css" media="screen">
-        body {
+        body {                      /* Changing body style */
             font-family: cursive;
             font-size: 12px;
             line-height: 1.428571429;
@@ -25,7 +25,7 @@ main_page_head = '''
             background-color: floralwhite;
             padding-top: 80px;
         }
-        .tooltip {
+        .tooltip {                  /* Adding tool tip to the image to display movie storyline */
         font-family: Georgia;
         font-size: 12px;
         }

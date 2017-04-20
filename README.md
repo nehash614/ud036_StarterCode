@@ -9,3 +9,13 @@ Installation
 
 How to run the project
 - Type "python entertainment.py"
+
+How to use the website
+- Click on the movie image to view its trailer
+- Hover over the movie iamge to read its storyline
+
+Extra features
+- Changed the title of the website to "My Favourite Movie Trailers"
+- Changed the background colour to floralwhite
+- Added a tooltip to movie image to display its storyline and added a new style to it
+- Changed the font family of the body to cursive

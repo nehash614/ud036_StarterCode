@@ -1,6 +1,7 @@
 import media
 import fresh_tomatoes
 
+#Create Movie instances
 pursuit_of_happyness = media.Movie("Pursuit of happyness","Life is a struggle for single father Chris Gardner (Will Smith). Evicted from their apartment, he and his young son (Jaden Christopher Syre Smith) find themselves alone with no place to go. Even though Chris eventually lands a job as an intern at a prestigious brokerage firm, the position pays no money. The pair must live in shelters and endure many hardships, but Chris refuses to give in to despair as he struggles to create a better life for himself and his son.","http://www.impawards.com/2006/posters/pursuit_of_happyness.jpg","https://www.youtube.com/watch?v=SIZKoak6gp8")
 
 forrest_gump = media.Movie("Forrest Gump","Slow-witted Forrest Gump (Tom Hanks) has never thought of himself as disadvantaged, and thanks to his supportive mother (Sally Field), he leads anything but a restricted life. Whether dominating on the gridiron as a college football star, fighting in Vietnam or captaining a shrimp boat, Forrest inspires people with his childlike optimism. But one person Forrest cares about most may be the most difficult to save -- his childhood love, the sweet but troubled Jenny (Robin Wright).","https://images-na.ssl-images-amazon.com/images/M/MV5BYThjM2MwZGMtMzg3Ny00NGRkLWE4M2EtYTBiNWMzOTY0YTI4XkEyXkFqcGdeQXVyNDYyMDk5MTU@._V1_UY268_CR10,0,182,268_AL_.jpg","https://www.youtube.com/watch?v=EtYNngO7eq4")
@@ -13,8 +14,8 @@ walter_mitty = media.Movie("The secret life of Walter Mitty","Walter Mitty (Ben 
 
 hunger_games = media.Movie("Hunger Games","In what was once North America, the Capitol of Panem maintains its hold on its 12 districts by forcing them each to select a boy and a girl, called Tributes, to compete in a nationally televised event called the Hunger Games. Every citizen must watch as the youths fight to the death until only one remains. District 12 Tribute Katniss Everdeen (Jennifer Lawrence) has little to rely on, other than her hunting skills and sharp instincts, in an arena where she must weigh survival against love.","https://images-na.ssl-images-amazon.com/images/M/MV5BMjA4NDg3NzYxMF5BMl5BanBnXkFtZTcwNTgyNzkyNw@@._V1_UY1200_CR90,0,630,1200_AL_.jpg","https://www.youtube.com/watch?v=FovFG3N_RSU")
 
-print(media.Movie.VALID_RATINGS)
-print(media.Movie.__doc__)
-
+#Prepare the movie list
 movies = [pursuit_of_happyness,forrest_gump,hachi,panda,walter_mitty,hunger_games]
+
+#Send the movies list to html page
 fresh_tomatoes.open_movies_page(movies)
