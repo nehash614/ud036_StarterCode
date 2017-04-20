@@ -1,5 +1,5 @@
 # ud036_StarterCode
-Source code for a Movie Trailer website.
+Source code for "My Favourite Movie Trailers" website.
 
 Installation
 - Open the terminal
